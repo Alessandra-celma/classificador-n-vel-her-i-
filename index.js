@@ -4,7 +4,7 @@ let nivel;
 
 if (xp < 1000) {
     nivel = "Ferro";
-} else if(xp >=1001 && xp <= 2000) {
+} else if(xp >= 1000 && xp <= 2000) {
     nivel = "Bronze";
 } else if (xp >= 2001 && xp <= 5000) {
     nivel = "Prata";
@@ -16,7 +16,7 @@ if (xp < 1000) {
     nivel = "Ascendente";
 } else if (xp >= 9001 && xp <= 10000) {
     nivel = "Imortal";
-} else if(xp > 10001) {
+} else if(xp >= 10001) {
     nivel = "Radiante";
 }
 

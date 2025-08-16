@@ -16,10 +16,10 @@ if (xp < 1000) {
     nivel = "Ascendente";
 } else if (xp >= 9001 && xp <= 10000) {
     nivel = "Imortal";
-}else {
+} else if(xp > 10001) {
     nivel = "Radiante";
 }
 
-console.log("o Heroi de nome ${ELEKTRA} esta no nivel de ${nivel} com ${xp} pontos de experiencia");
+console.log(`o Heroi de nome ${nome} esta no nivel de ${nivel} com ${xp} pontos de experiencia`);
 
 

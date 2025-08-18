@@ -4,7 +4,7 @@ let nivel;
 
 if (xp < 1000) {
     nivel = "Ferro";
-} else if(xp >= 1000 && xp <= 2000) {
+} else if(xp >= 1001 && xp <= 2000) {
     nivel = "Bronze";
 } else if (xp >= 2001 && xp <= 5000) {
     nivel = "Prata";
@@ -20,6 +20,4 @@ if (xp < 1000) {
     nivel = "Radiante";
 }
 
-console.log(`o Heroi de nome ${nome} esta no nivel de ${nivel} com ${xp} pontos de experiencia`);
-
-
+console.log(`"O Héroi de nome **\{${nome}\}** está no nível de **\{${nivel}\}**" com **\{${xp}\}** xp.`);
